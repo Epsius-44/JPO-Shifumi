@@ -9,6 +9,13 @@ def affichage_regles():
     print('==============================================================\n')
 
 
+def affichage_choix(nom_j1, choix_j1, nom_j2, choix_j2):
+    print('\n==============================================================')
+    print(f'== - Choix {nom_j1} : {choix_j1}')
+    print(f'== - Choix {nom_j2} : {choix_j2}')
+    print('==============================================================\n')
+
+
 def saisie_joueur(nomJoueur):
     while True:
         saisie = input('> ' + nomJoueur + ' \n(1) - Pierre \n(2) - Feuille \n(3) - Ciseaux\nFaites votre choix : ')
