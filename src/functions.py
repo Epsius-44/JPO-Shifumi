@@ -16,6 +16,13 @@ def affichage_choix(nom_j1, choix_j1, nom_j2, choix_j2):
     print('==============================================================\n')
 
 
+def affichage_score(nom_j1, nom_j2, score):
+    print('\n==============================================================')
+    print(f'== - Score {nom_j1} : {score[0]}')
+    print(f'== - Score {nom_j2} : {score[1]}')
+    print('==============================================================\n')
+
+
 def saisie_joueur(nomJoueur):
     while True:
         saisie = input('> ' + nomJoueur + ' \n(1) - Pierre \n(2) - Feuille \n(3) - Ciseaux\nFaites votre choix : ')
