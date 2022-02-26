@@ -23,6 +23,13 @@ def affichage_score(nom_j1, nom_j2, score):
     print('==============================================================\n')
 
 
+def affichage_gagnant(nom_j1, nom_j2, score):
+    if score[0] == 3:
+        print(f'Bravo {nom_j1} vous gagnez la partie')
+    else:
+        print(f'Bravo {nom_j2} vous gagnez la partie')
+
+
 def saisie_joueur(nomJoueur):
     while True:
         saisie = input('> ' + nomJoueur + ' \n(1) - Pierre \n(2) - Feuille \n(3) - Ciseaux\nFaites votre choix : ')

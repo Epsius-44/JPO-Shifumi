@@ -33,10 +33,7 @@ def game():
         shifumi.affichage_choix('Joueur 1', options[saisie_j1], 'Joueur 2', options[saisie_j2])
         score = test_gagnant('Joueur 1', saisie_j1, 'Joueur 2', saisie_j2, score)
         shifumi.affichage_score('Joueur 1', 'Joueur 2', score)
-    if score[0] == 3:
-        print('Bravo joueur 1 vous gagnez la partie')
-    else:
-        print('Bravo joueur 2 vous gagnez la partie')
+    shifumi.affichage_gagnant('Joueur 1', 'Joueur 2', score)
 
 
 def main():
