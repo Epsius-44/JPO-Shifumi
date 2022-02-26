@@ -5,8 +5,22 @@ options = ['Pierre', 'Feuille', 'Ciseaux']
 score = [0, 0]
 
 
+# saisie : 0 pour Pierre, 1 pour Feuille, 2 pour Ciseaux
 def test_gagnant(nom_j1, saisie_j1, nom_j2, saisie_j2, game_score):
-    print('Égalité !')
+    if saisie_j1 == saisie_j2:
+        print('Égalité ! Personne ne gagne de point.')
+    elif saisie_j1 == 1 and saisie_j2 == 3:
+        print(f'{nom_j1} gagne la manche !')
+        game_score[0] += 1
+    elif saisie_j2 == 1 and saisie_j1 == 3:
+        print(f'{nom_j2} gagne la manche !')
+        game_score[1] += 1
+    elif saisie_j1 > saisie_j2:
+        print(f'{nom_j1} gagne la manche !')
+        game_score[0] += 1
+    else:
+        print(f'{nom_j2} gagne la manche !')
+        game_score[1] += 1
     return game_score
 
 
