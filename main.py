@@ -5,7 +5,7 @@ options = ['Pierre', 'Feuille', 'Ciseaux']
 score = [0, 0]
 
 
-# saisie : 0 pour Pierre, 1 pour Feuille, 2 pour Ciseaux
+# saisie : 1 pour Pierre, 2 pour Feuille, 3 pour Ciseaux
 def test_gagnant(nom_j1, saisie_j1, nom_j2, saisie_j2, game_score):
     if saisie_j1 == saisie_j2:
         print('Égalité ! Personne ne gagne de point.')
@@ -30,7 +30,7 @@ def game():
     while score[0] != 3 and score[1] != 3:
         saisie_j1 = shifumi.saisie_joueur('Joueur 1')
         saisie_j2 = shifumi.saisie_joueur('Joueur 2')
-        shifumi.affichage_choix('Joueur 1', options[saisie_j1], 'Joueur 2', options[saisie_j2])
+        shifumi.affichage_choix('Joueur 1', options[saisie_j1 - 1], 'Joueur 2', options[saisie_j2 - 1])
         score = test_gagnant('Joueur 1', saisie_j1, 'Joueur 2', saisie_j2, score)
         shifumi.affichage_score('Joueur 1', 'Joueur 2', score)
     shifumi.affichage_gagnant('Joueur 1', 'Joueur 2', score)

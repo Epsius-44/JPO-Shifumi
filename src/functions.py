@@ -34,6 +34,6 @@ def saisie_joueur(nomJoueur):
     while True:
         saisie = input('> ' + nomJoueur + ' \n(1) - Pierre \n(2) - Feuille \n(3) - Ciseaux\nFaites votre choix : ')
         if saisie not in ["1", "2", "3"]:
-            print("Proposition incorrecte, veuillez respecter le format souhaité")
+            print('Proposition incorrecte, veuillez respecter le format souhaité')
         else:
             return int(saisie)
