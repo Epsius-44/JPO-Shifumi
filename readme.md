@@ -23,5 +23,5 @@ Le fichier *aide.png* est disponibles avec les scripts pour que tous les partici
 
 Fonctionnalité à ajouter après la complétion de la tache principale :
 1. Rendre le joueur 2 autonome (PNJ)
-2. Faire choisir le nom de chaque joueur
+2. Faire choisir le nom du/des joueur(s)
 3. Ajouter des couleurs au nom des joueurs [documentation (16 Colors in Raw Python)](https://stackabuse.com/how-to-print-colored-text-in-python/#16colorsinrawpython)
