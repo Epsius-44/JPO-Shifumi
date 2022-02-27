@@ -5,6 +5,8 @@ options = ['Pierre', 'Feuille', 'Ciseaux']
 score = [0, 0]
 
 
+# ================== Partie à recoder ==================
+# Fonction determinant le gagnant de la manche
 # saisie : 1 pour Pierre, 2 pour Feuille, 3 pour Ciseaux
 def test_gagnant(nom_j1, saisie_j1, nom_j2, saisie_j2, game_score):
     if saisie_j1 == saisie_j2:
@@ -22,8 +24,10 @@ def test_gagnant(nom_j1, saisie_j1, nom_j2, saisie_j2, game_score):
         print(f'{nom_j2} gagne la manche !')
         game_score[1] += 1
     return game_score
+# ================= Fin partie à coder =================
 
 
+# Fonction déterminant le déroulement d'une partie
 def game():
     global score
     shifumi.affichage_regles()
@@ -36,6 +40,7 @@ def game():
     shifumi.affichage_gagnant('Joueur 1', 'Joueur 2', score)
 
 
+# Fonction déterminant le déroulement du programme
 def main():
     global score
     while True:
