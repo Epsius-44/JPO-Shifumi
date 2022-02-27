@@ -4,7 +4,9 @@
 
 Script de l'atelier Python pour la JPO EPSI Nantes. 
 L'objectif est de compléter les conditions de victoire du shifumi.
+
 (Durée : 30 min)
+[Lien du template de diapo de l'atelier](https://docs.google.com/presentation/d/11WMAlkuY-EaasJS3OAQxBNtRtPIiSXcbwbYN2b9HRKc/edit?usp=sharing)
 
 Avec 3 niveaux de difficulté :
 - **Niveau Padawan** : Completer les conditions 
@@ -12,6 +14,8 @@ Avec 3 niveaux de difficulté :
 - **Niveau Dark Vador** : Comme niveau Jedi mais avec seulement 5 conditions (else compte comme 1 condition)
 
 ## Aide dans la réalisation de l'atelier
+
+Le fichier *aide.png* est disponibles avec les scripts pour que tous les participants puisse s'en servir.
 
 ![rappel des condition en python](aide.png)
 
