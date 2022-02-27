@@ -4,6 +4,7 @@
 
 Script de l'atelier Python pour la JPO EPSI Nantes. 
 L'objectif est de compléter les conditions de victoire du shifumi.
+(Durée : 30 min)
 
 Avec 3 niveaux de difficulté :
 - **Niveau Padawan** : Completer les conditions 
