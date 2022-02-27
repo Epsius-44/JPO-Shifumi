@@ -8,6 +8,7 @@ score = [0, 0]
 # ================== Partie à recoder ==================
 # Fonction determinant le gagnant de la manche
 # saisie : 1 pour Pierre, 2 pour Feuille, 3 pour Ciseaux
+# game_score = score[] définit juste au-dessus
 def test_gagnant(nom_j1, saisie_j1, nom_j2, saisie_j2, game_score):
 
     return game_score
