@@ -17,6 +17,6 @@ Avec 3 niveaux de difficulté :
 ## Bonus possible
 
 Fonctionnalité à ajouter après la complétion de la tache principale :
-- Faire choisir le nom de chaque joueur
-- Rendre le joueur 2 autonome (PNJ)
-- Ajouter des couleurs au nom des joueurs [documentation (16 Colors in Raw Python)](https://stackabuse.com/how-to-print-colored-text-in-python/#16colorsinrawpython)
+1. Rendre le joueur 2 autonome (PNJ)
+2. Faire choisir le nom de chaque joueur
+3. Ajouter des couleurs au nom des joueurs [documentation (16 Colors in Raw Python)](https://stackabuse.com/how-to-print-colored-text-in-python/#16colorsinrawpython)
