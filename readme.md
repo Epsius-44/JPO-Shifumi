@@ -1,12 +1,16 @@
 # Shifumi pour la JPO
 
+> **À la fin de chaque JPO n'hésiter pas à ouvrir une issue sur le github pour contribuer à l'amélioration de l'atelier**
+> 
+>[Ouvrir une issue pour un récap](https://github.com/louis-ducruet/JPO-Shifumi/issues/new?assignees=louis-ducruet&labels=R%C3%A9cap+JPO&template=r-sum--de-la-jpo.md&title=%5BR%C3%A9cap+JPO%5D+%3A+31%2F12%2F2000)
+
 ## Présentation du projet
 
 Script de l'atelier Python pour la JPO EPSI Nantes. 
 L'objectif est de compléter les conditions de victoire du shifumi.
 
 (Durée : 30 min)
-[Lien du template de diapo de l'atelier](https://docs.google.com/presentation/d/11WMAlkuY-EaasJS3OAQxBNtRtPIiSXcbwbYN2b9HRKc/edit?usp=sharing)
+[Lien du modèle de diapo de l'atelier](https://docs.google.com/presentation/d/11WMAlkuY-EaasJS3OAQxBNtRtPIiSXcbwbYN2b9HRKc/edit?usp=sharing)
 
 Avec 3 niveaux de difficulté :
 - **Niveau Padawan** : Completer les conditions 
