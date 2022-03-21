@@ -17,11 +17,12 @@ Avec 3 niveaux de difficulté :
 
 Le fichier *aide.png* est disponibles avec les scripts pour que tous les participants puisse s'en servir.
 
-![rappel des condition en python](aide.png)
+![rappel des condition en python](img/aide.png)
 
 ## Bonus possible
 
 Fonctionnalité à ajouter après la complétion de la tache principale :
 1. Rendre le joueur 2 autonome (PNJ)
-2. Faire choisir le nom du/des joueur(s)
-3. Ajouter des couleurs aux noms des joueurs pour les différencier [documentation (16 Colors in Raw Python)](https://stackabuse.com/how-to-print-colored-text-in-python/#16colorsinrawpython)
+2. Faire choisir le nom de chaque joueur
+3. Ajouter des couleurs au nom des joueurs [documentation (16 Colors in Raw Python)](https://stackabuse.com/how-to-print-colored-text-in-python/#16colorsinrawpython)
+4. Modification des règles pour s'adapter à la version Pierre, Papier, Ciseaux, Lézard, Spock ![Règle du jeu](img/bonus-regles-suplementaires.png)
