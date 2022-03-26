@@ -7,8 +7,11 @@ score = [0, 0]
 
 # ================== Partie à recoder ==================
 # Fonction determinant le gagnant de la manche
-# saisie : 1 pour Pierre, 2 pour Feuille, 3 pour Ciseaux
-# Ne pas hésiter à utiliser plusieurs conditions pour vérifier si le joueur 1/2 gagne.
+"""
+❗❗❗              Information Importante :              ❗❗❗
+saisie_jx : 1 pour Pierre, 2 pour Feuille, 3 pour Ciseaux
+Utiliser plusieurs fois les conditions ci-dessous
+"""
 def test_gagnant(nom_j1, saisie_j1, nom_j2, saisie_j2, game_score):
     # Si égalité
     if False:

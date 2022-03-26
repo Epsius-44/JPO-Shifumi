@@ -7,8 +7,12 @@ score = [0, 0]
 
 # ================== Partie à recoder ==================
 # Fonction determinant le gagnant de la manche
-# saisie : 1 pour Pierre, 2 pour Feuille, 3 pour Ciseaux
-# ⚠ Max : 5 conditions (else compte comme 1 condition) ⚠
+"""
+❗❗❗              Information Importante :              ❗❗❗
+saisie_jx : 1 pour Pierre, 2 pour Feuille, 3 pour Ciseaux
+game_score[0] pour j1 et game_score[1] pour j2
+⚠  Max : 5 conditions (else compte comme 1 condition)  ⚠
+"""
 def test_gagnant(nom_j1, saisie_j1, nom_j2, saisie_j2, game_score):
 
     return game_score
