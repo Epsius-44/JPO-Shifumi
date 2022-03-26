@@ -44,8 +44,8 @@ def main():
     global score
     while True:
         saisie = input('Voulez vous lancer une partie de Pierre / Feuille / Ciseaux ? (O)ui / (N)on : ').upper()
-        if saisie in ['O', 'N']:
-            if saisie == 'O':
+        if saisie in ['O', 'N', 'OUI', 'NON']:
+            if saisie in ['O', 'OUI']:
                 score = [0, 0]
                 game()
             else:
