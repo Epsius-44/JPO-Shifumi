@@ -13,15 +13,15 @@ L'objectif est de compléter les conditions de victoire du shifumi.
 [Lien du modèle de diapo de l'atelier](https://docs.google.com/presentation/d/11WMAlkuY-EaasJS3OAQxBNtRtPIiSXcbwbYN2b9HRKc/edit?usp=sharing)
 
 Avec 3 niveaux de difficulté :
-- **Niveau Padawan** : Completer les conditions 
-- **Niveau Jedi** : Completer les conditions et les actions des conditions
+- **Niveau R2-D2** : Completer les conditions 
+- **Niveau Obi-Wan** : Completer les conditions et les actions des conditions
 - **Niveau Dark Vador** : Comme niveau Jedi mais avec seulement 5 conditions (else compte comme 1 condition)
 
 ## Aide dans la réalisation de l'atelier
 
 Le fichier *aide.png* est disponibles avec les scripts pour que tous les participants puisse s'en servir.
 
-![rappel des condition en python](img/aide.png)
+![rappel des condition en python](https://github.com/Epsius-44/JPO-Shifumi/blob/main/doc/img/aide.png?raw=true)
 
 ## Bonus possible
 
@@ -31,4 +31,4 @@ Fonctionnalité à ajouter après la complétion de la tache principale :
 3. Ajouter des couleurs au nom des joueurs [documentation (16 Colors in Raw Python)](https://stackabuse.com/how-to-print-colored-text-in-python/#16colorsinrawpython)
 4. Modification des règles pour s'adapter à la version Pierre, Papier, Ciseaux, Lézard, Spock 
 
-![Règle du jeu](img/bonus-regles-suplementaires.png)
+![Règle du jeu](https://github.com/Epsius-44/JPO-Shifumi/blob/main/doc/img/bonus-regles-suplementaires.png?raw=true)
